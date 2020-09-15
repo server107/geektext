@@ -5,9 +5,11 @@ import org.springframework.stereotype.Controller;
 public class HomeController {
 
 @ReuestMapping
-public void home()
+@ResponseBody
+public String home()
 	{
     system.out.print()"Hello App");
+return "home.jsp";
   }
 
 }
