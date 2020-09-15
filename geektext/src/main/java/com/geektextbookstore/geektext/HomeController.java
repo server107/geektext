@@ -4,8 +4,8 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class HomeController {
 
-@ReuestMapping
-@ResponseBody
+@ReuestMapping(:home:)
+
 public String home()
 	{
     system.out.print()"Hello App");
